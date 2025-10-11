@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oladokun Clement - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">Clement<span>Dev</span></div>
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="animate-text">Oladokun <span>Clement</span></h1>
+          <h2 class="animate-subtitle">MERN Stack & Mobile Developer</h2>
+          <p class="hero-description">
+            Result-driven developer passionate about building scalable
+            applications and delivering high-quality solutions through clean
+            code and collaboration.
+          </p>
+          <div class="hero-buttons">
+            <button class="btn-primary" onclick="scrollToSection('projects')">
+              View My Work
+            </button>
+            <button class="btn-secondary" onclick="scrollToSection('contact')">
+              Get In Touch
+            </button>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="image-container">
+            <!-- Replace with your image path -->
+            <img
+              src="assets/profile.jpg"
+              alt="Oladokun Clement"
+              class="profile-img"
+            />
+            <div class="floating-elements">
+              <div class="floating-element react">⚛️</div>
+              <div class="floating-element node">🟢</div>
+              <div class="floating-element mobile">📱</div>
+              <div class="floating-element db">🗄️</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="scroll-arrow"></div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">Why I Should Be Considered</h2>
+        <div class="about-grid">
+          <div class="about-card">
+            <div class="card-icon">🚀</div>
+            <h3>Fast Learner</h3>
+            <p>
+              Quickly adapt to new technologies and frameworks. Currently
+              mastering React Native and expanding my full-stack capabilities.
+            </p>
+          </div>
+          <div class="about-card">
+            <div class="card-icon">💡</div>
+            <h3>Problem Solver</h3>
+            <p>
+              Strong analytical skills with experience in data validation,
+              debugging, and creating efficient solutions.
+            </p>
+          </div>
+          <div class="about-card">
+            <div class="card-icon">🤝</div>
+            <h3>Team Player</h3>
+            <p>
+              Proven experience collaborating with interdisciplinary teams and
+              mentoring new staff members.
+            </p>
+          </div>
+          <div class="about-card">
+            <div class="card-icon">📊</div>
+            <h3>Data-Driven</h3>
+            <p>
+              Background in data management and analysis, ensuring accuracy and
+              quality in all projects.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-container">
+          <div class="skills-category">
+            <h3>Frontend</h3>
+            <div class="skill-item">
+              <span>React</span>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="90"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span>JavaScript</span>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="85"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-category">
+            <h3>Backend</h3>
+            <div class="skill-item">
+              <span>Node.js</span>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="80"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span>Express</span>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="75"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-category">
+            <h3>Database</h3>
+            <div class="skill-item">
+              <span>MongoDB</span>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="80"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span>PostgreSQL</span>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="70"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-category">
+            <h3>Mobile</h3>
+            <div class="skill-item">
+              <span>React Native</span>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="75"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span>Flutter</span>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="60"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+      <div class="container">
+        <h2 class="section-title">Professional Experience</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-date">2022 - 2024</div>
+            <div class="timeline-content">
+              <h3>IVHN - Cascade Manager/Data Assistant</h3>
+              <ul>
+                <li>
+                  Supported TB/HIV surveillance initiatives under CDC/Global
+                  Fund grants
+                </li>
+                <li>
+                  Performed daily data validation and cleaning using REDCap,
+                  SQL, and Excel
+                </li>
+                <li>
+                  Coordinated with teams to prepare monthly and quarterly
+                  reports
+                </li>
+                <li>Developed SOPs and training modules for data integrity</li>
+                <li>Mentored new staff and fostered knowledge transfer</li>
+              </ul>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">2021 - 2022</div>
+            <div class="timeline-content">
+              <h3>PLP Academy - Technical Training</h3>
+              <ul>
+                <li>Advanced training in full-stack development</li>
+                <li>Mobile app development with React Native</li>
+                <li>Web3 and blockchain fundamentals</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">Projects & Technical Experience</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <!-- Replace with your project image -->
+              <img src="assets/project1.jpg" alt="Full Stack Project" />
+            </div>
+            <div class="project-content">
+              <h3>Full Stack Web Applications</h3>
+              <p>
+                Developed responsive web apps using React, Node.js, Express, and
+                MongoDB with scalable APIs and optimized data handling.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">MongoDB</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <!-- Replace with your project image -->
+              <img src="assets/project2.jpg" alt="Mobile App Project" />
+            </div>
+            <div class="project-content">
+              <h3>Mobile App Development</h3>
+              <p>
+                Experimented with React Native for mobile app prototyping and
+                cross-platform deployment.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React Native</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Mobile</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <!-- Replace with your project image -->
+              <img src="assets/project3.jpg" alt="Web3 Project" />
+            </div>
+            <div class="project-content">
+              <h3>Web3 & Blockchain</h3>
+              <p>
+                Exploring EVM, smart contract concepts, and engaging in
+                open-source collaboration and technical writing.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Web3</span>
+                <span class="tech-tag">Blockchain</span>
+                <span class="tech-tag">Git</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Let's Connect</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">📞</div>
+              <div class="contact-details">
+                <h3>Phone</h3>
+                <p>+234 811 578 0276</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">📧</div>
+              <div class="contact-details">
+                <h3>Email</h3>
+                <p>heltonclef@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">🏠</div>
+              <div class="contact-details">
+                <h3>Location</h3>
+                <p>Lagos, Nigeria</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">💻</div>
+              <div class="contact-details">
+                <h3>GitHub</h3>
+                <p>github.com/HeltonClef</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form id="contactForm">
+              <input type="text" placeholder="Your Name" required />
+              <input type="email" placeholder="Your Email" required />
+              <textarea placeholder="Your Message" rows="5" required></textarea>
+              <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2024 Oladokun Clement. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="mailto:heltonclef@gmail.com">Email</a>
+          <a href="https://github.com/HeltonClef" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
